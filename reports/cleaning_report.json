@@ -1,0 +1,66 @@
+{
+  "source_file": "clinical_trials_raw_patient2trial_conditions (1).csv",
+  "cleaned_file": "data/processed/clinical_trials_cleaned.csv",
+  "rows_read_and_written": 60337,
+  "rows_removed": 0,
+  "duplicate_source_condition_trial_keys": 0,
+  "missing_values_by_column": {
+    "official_title": 786,
+    "conditions": 1,
+    "interventions": 6061,
+    "phase": 14794,
+    "sex": 33,
+    "minimum_age": 3216,
+    "maximum_age": 31937,
+    "healthy_volunteers": 1480,
+    "eligibility_criteria": 11
+  },
+  "missing_key_rows": 0,
+  "invalid_nct_ids": 0,
+  "invalid_clinicaltrials_urls": 0,
+  "unparsed_minimum_ages": 0,
+  "unparsed_maximum_ages": 0,
+  "minimum_age_greater_than_maximum_age": 0,
+  "metadata_value_counts": {
+    "overall_status": {
+      "COMPLETED": 33659,
+      "UNKNOWN": 9454,
+      "RECRUITING": 6089,
+      "TERMINATED": 3761,
+      "ACTIVE_NOT_RECRUITING": 2468,
+      "NOT_YET_RECRUITING": 2402,
+      "WITHDRAWN": 1750,
+      "ENROLLING_BY_INVITATION": 461,
+      "SUSPENDED": 203,
+      "NO_LONGER_AVAILABLE": 55,
+      "APPROVED_FOR_MARKETING": 17,
+      "AVAILABLE": 17,
+      "TEMPORARILY_NOT_AVAILABLE": 1
+    },
+    "study_type": {
+      "INTERVENTIONAL": 45548,
+      "OBSERVATIONAL": 14699,
+      "EXPANDED_ACCESS": 90
+    },
+    "phase": {
+      "NA": 22207,
+      "PHASE2": 7408,
+      "PHASE3": 5201,
+      "PHASE1": 4160,
+      "PHASE4": 3495,
+      "PHASE1 | PHASE2": 1708,
+      "PHASE2 | PHASE3": 821,
+      "EARLY_PHASE1": 543
+    },
+    "sex": {
+      "ALL": 47436,
+      "FEMALE": 11925,
+      "MALE": 943
+    }
+  },
+  "healthy_volunteers_value_counts": {
+    "False": 45860,
+    "True": 12997
+  },
+  "age_conversion": "Years are exact; months, weeks, days, hours, and minutes use 365.25 days per year."
+}
